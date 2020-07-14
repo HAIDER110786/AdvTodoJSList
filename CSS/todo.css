@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+    background-color: aquamarine;
+}
+
+.mainDiv{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.list{
+    border: 2px solid black;
+}
+
+.list-item{
+    display:flex;
+    flex-direction:row;
+    height: 30px;
+    width: 250px;
+    border:1px solid black;
+    padding: 15px;
+}
+
+.list-item p{
+    margin: 0;
+    margin-left:10px;
+}
